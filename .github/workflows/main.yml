@@ -1,0 +1,29 @@
+name: Update README.md
+
+on:
+  schedule:
+    - cron: 0 0 * * *
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+
+      - name: Run script
+        run: |
+          ruby script.rb
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add profile/README.md
+          git commit -m "Update README.md with year progress" || echo "No changes to commit"
+          git push origin main
