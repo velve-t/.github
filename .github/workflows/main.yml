@@ -21,7 +21,7 @@ jobs:
 
       - name: Run script
         run: |
-          ruby script.rb
+          ruby main.rb
 
       - name: Commit changes
         run: |
