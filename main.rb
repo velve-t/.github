@@ -22,7 +22,7 @@ def year_progress
 end
 
 def update_readme(new_line)
-  readme_path = "../README.md"
+  readme_path = "profile/README.md"
 
   if File.exist?(readme_path)
     content = File.read(readme_path)

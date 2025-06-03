@@ -2,7 +2,7 @@
 
 <br/>
 
-this organization will serve as a archive of a open source project that i will make it open to the public...
+This organization will serve as an archive for an open-source project that I am making publicly accessible, called Velvet. I believe I’ve already made it open to the public, so feel free to take a look :)
 
 that's it
 
