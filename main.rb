@@ -33,9 +33,9 @@ def update_readme(new_line)
     end
 
     File.write(readme_path, updated_content)
-    puts "😊 the README.md updated successfully :)"
+    puts "😊 the markdown file updated successfully :)"
   else
-    puts "😢 couldn't find the README.md :("
+    puts "😢 couldn't find the markdown file :("
   end
 end
 
