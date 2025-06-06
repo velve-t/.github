@@ -8,4 +8,4 @@ that's it
 
 <br/>
 
-- just so you know, 2025 is 42.47% complete
+- just so you know, 2025 is 42.75% complete
