@@ -9,4 +9,4 @@ that's it
 <br/>
 
 - just so you know, 2025 is 42.75% complete
-- 
+- [![update year progress](https://github.com/velve-t/.github/actions/workflows/main.yml/badge.svg?event=schedule)](https://github.com/velve-t/.github/actions/workflows/main.yml)
